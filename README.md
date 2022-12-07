@@ -42,12 +42,11 @@ plt.show()
 ```
 ![](https://github.com/freh-g/overlab/blob/main/overlab/images/no_overlab.png?raw=true))
 
-```
-
 
 #### overlab
 
-import numpy as np
+```
+import numpy as np 
 import matplotlib.pyplot as plt
 import overlab as ol
 
