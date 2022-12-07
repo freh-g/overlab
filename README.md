@@ -35,7 +35,7 @@ annotations=[f'label {str(n)}' for n in range(N)]
 fig, ax = plt.subplots()
 ax.scatter(x, y, s=area, c=colors, alpha=0.5)
 for cordx, cordy, label in zip(x, y, annotations):
-	ax.annotate(label(cordx,cordy)) 
+	ax.annotate(label,(cordx,cordy)) 
 
 plt.show()
 
@@ -63,7 +63,7 @@ annotations=[f'label {str(n)}' for n in range(N)]
 
 fig, ax = plt.subplots()
 ax.scatter(x, y, s=area, c=colors, alpha=0.5)
-ol(x,y,annotations,ax=ax)
+ol.annoatate(x,y,annotations,ax=ax)
 
 plt.show()
 
