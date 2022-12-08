@@ -70,6 +70,6 @@ plt.show()
 ```
 
 
-![](https://github.com/freh-g/overlab/blob/main/overlab/images/overlab.png?raw=true))
+![](https://github.com/freh-g/overlab/blob/main/overlab/images/overlab.png?raw=true)
 
 
