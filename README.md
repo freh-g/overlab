@@ -69,5 +69,4 @@ plt.show()
 ```
 
 
-![](./images/overlab.JPG)
-
+![](https://raw.githubusercontent.com/freh-g/overlab/blob/main/images/overlab.jpg)
