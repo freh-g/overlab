@@ -40,7 +40,7 @@ for cordx, cordy, label in zip(x, y, annotations):
 plt.show()
 
 ```
-![](./images/no_overlab.JPG)
+![](https://raw.githubusercontent.com/freh-g/overlab/blob/main/images/no_overlab.jpg)
 
 #### overlab
 
