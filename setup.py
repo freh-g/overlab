@@ -13,7 +13,7 @@ long_description = (this_directory / "README.md").read_text()
 setup(
     name='overlab',
     packages=find_packages(),
-    version='0.2.3',
+    version='0.2.4',
     long_description=long_description,
     long_description_content_type='text/markdown',
     author='Francesco Gualdi',
