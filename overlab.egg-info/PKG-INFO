@@ -1,12 +1,12 @@
 Metadata-Version: 2.1
 Name: overlab
-Version: 0.2.1
+Version: 0.2.3
 Author: Francesco Gualdi
 License: GPL
 Description-Content-Type: text/markdown
 License-File: LICENSE.txt
 
-#overlab
+# overlab
 
 This is a function to prevent overlapping when annotating a plot in matplotlib. The algorithm works by starting from the coordinate to annotate and slowly moving the label in a spiral centered in the starting point progressively distancing from it until find a suitable place that is not overlapping any of the other labels.
 
@@ -48,7 +48,7 @@ for cordx, cordy, label in zip(x, y, annotations):
 plt.show()
 
 ```
-![No_overlab](https://raw.githubusercontent.com/freh-g/overlab/tree/main/images/no_overlab.jpg)
+![No_overlab](https://github.com/freh-g/overlab/blob/main/images/no_overlab.jpg)
 
 
 #### overlab
@@ -78,4 +78,4 @@ plt.show()
 ```
 
 
-![overlab](https://raw.githubusercontent.com/freh-g/overlab/tree/main/images/overlab.jpg)
+![overlab](https://github.com/freh-g/overlab/blob/main/images/overlab.jpg)

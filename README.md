@@ -1,4 +1,4 @@
-#overlab
+# overlab
 
 This is a function to prevent overlapping when annotating a plot in matplotlib. The algorithm works by starting from the coordinate to annotate and slowly moving the label in a spiral centered in the starting point progressively distancing from it until find a suitable place that is not overlapping any of the other labels.
 
